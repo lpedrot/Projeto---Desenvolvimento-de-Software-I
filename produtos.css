@@ -65,6 +65,45 @@ main{
     background-color: #B71C1C;
 }
 
+.produtos{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produto{
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px;
+    border-style: solid;
+    border-color: #ddd;
+    text-align: center;
+    box-shadow: 2px 2px 5px (black);
+    padding: 15px;
+    width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.produto img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.produto button{
+    background-color: red;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;  
+
+}
+
+.produto button:hover{
+    background-color:#B71C1Ced;
+}
+
 @media (max-width: 600px){
     header{
         font-size: 17px;
