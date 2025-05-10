@@ -1,22 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.6;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-image: url(./assets/Industrial.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
 }
 
-header{
+header {
     background-color: #201e1e;
     color: white;
     padding: 0.5%;
@@ -41,13 +37,13 @@ nav ul li a {
     font-size: 16px;
 }
 
-nav ul li a:hover{
-    color:red;
+nav ul li a:hover {
+    color: red;
 
 }
-  
 
-main{
+
+main {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -55,22 +51,22 @@ main{
     padding: 2%;
     padding-top: 120px;
     flex-direction: column;
-    
+
 }
 
 
-.cards{
+.cards {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     background-color: #2c2c2c;
     padding: 20px;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.card{
+.card {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -86,12 +82,13 @@ main{
     margin: 10px 0;
     color: white;
 }
+
 .cards p {
     color: white;
     margin: 10px 0;
 }
 
-.depoimentos{
+.depoimentos {
     width: 90%;
     max-width: 1200px;
     text-align: center;
@@ -103,20 +100,20 @@ main{
 
 }
 
-.depoimentos h2{
+.depoimentos h2 {
     font-size: 25px;
     margin-bottom: 20px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container-depoimentos{
+.container-depoimentos {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.depoimento{
+.depoimento {
     display: flex;
     color: white;
     background-color: #3a3a3a;
@@ -128,7 +125,7 @@ main{
     font-style: italic;
 }
 
-.depoimento:hover{
+.depoimento:hover {
     background-color: #4a4a4a;
 }
 
@@ -149,7 +146,7 @@ main{
         padding: 20px;
     }
 
-    .container-depoimentos{
+    .container-depoimentos {
         flex-wrap: wrap;
 
     }
@@ -164,7 +161,7 @@ main{
         padding: 8px;
     }
 
-    nav ul{
+    nav ul {
         align-items: center;
     }
 }
@@ -189,10 +186,59 @@ main{
     main {
         padding: 30px;
     }
+
+    .container-depoimentos {
+        flex-wrap: wrap;
+
+    }
 }
 
 
-footer{
+.notificacao {
+    background-color: #2c2c2c;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.notificacao h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.notificacao p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#notify {
+    background-color: #3498db;
+    /* Azul claro */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#notify:hover {
+    background-color: #2980b9;
+
+}
+
+.destaque {
+    font-weight: bold;
+}
+
+
+footer {
     position: relative;
     left: 0;
     bottom: 0;
@@ -201,5 +247,5 @@ footer{
     color: white;
     text-align: center;
     padding: 10px 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
