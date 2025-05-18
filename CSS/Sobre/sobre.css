@@ -9,7 +9,8 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background: linear-gradient(to right, #f7f7f7, #d3d3d3);
+    background-color: #1f1c18;
+background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png")
 }
 
 header {
@@ -60,9 +61,9 @@ main {
     padding: 40px;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     bottom: 50px;
 }
 
@@ -74,7 +75,7 @@ main {
 
 .Institucional {
     font-size: 18px;
-    color: #333;
+    color: #222;
     text-align: justify;
     border-left: 5px solid #2c2c2c;
     padding: 15px;
@@ -123,7 +124,7 @@ main {
 .bloco p,
 .bloco ul {
     font-size: 16px;
-    color: #444;
+    color: #555;
     line-height: 1.6;
 }
 
@@ -188,6 +189,20 @@ main {
         grid-template-columns: 1fr;
         padding: 5%;
     }
+}
+
+#voltarTopo {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+    z-index: 1000;
 }
 
 footer {

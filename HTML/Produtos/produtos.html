@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-BR" data-bs-theme="ligth">
+<html lang="pt-BR" data-bs-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GearBox Parts - Produtos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="/CSS/Produtos/produtos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="/JS/Home/notify.js"></script>
+    <script src="/JS/Produtos/carregaProdutos.js"></script>
 </head>
 <body>
     <header>
@@ -19,70 +22,36 @@
         </ul>
     </nav> 
       
-    <main>
+   <main>
         <section class="destaques">
-            <div class="produtos">
-                <div class="produto">
-                    <img src="\assets\freios.jpg" alt="Freios">
-                    <h3>Disco de Freio</h3>
-                    <p>Por: R$389,90</p>
-                    <p>À vista ou em 10x de R$38,99 sem juros</p>
-                    <p>Frete para todo o Brasil</p><BR>
-                    <button id="comprar" type="button">Comprar</button>
-                </div>
-                <div class="produto">
-                    <img src="\assets\deWalt.jpg" alt="Furadeira">
-                    <h3>Furadeira DeWalt</h3>
-                    <p>Por: R$499,90</p>
-                    <p>À vista ou em 10x de R$49,99 sem juros</p>
-                    <p>Frete para todo o Brasil</p><BR>
-                    <button id="comprar" type="button">Comprar</button>
-                </div>
-                <div class="produto">
-                    <img src="\assets\Parafusadeira Makita.jpg" alt="Parafusadeira">
-                    <h3>Parafusadeira Makita</h3>
-                    <p>Por: R$359,90</p>
-                    <p>À vista ou em 10x de R$35,99 sem juros</p>
-                    <p>Frete para todo o Brasil</p><BR>
-                    <button id="comprar" type="button">Comprar</button>
-                </div>
-                <div class="produto">
-                    <img src="\assets\Fresa de topo.jpg" alt="Fresadora">
-                    <h3>Fresa de Topo</h3>
-                    <p>Por: R$59,90</p>
-                    <p>À vista</p>
-                    <p>Frete para todo o Brasil - Acima de 10 itens</p><BR>
-                    <button id="comprar" type="button">Comprar</button>
-                </div>
-                <div class="produto">
-                    <img src="\assets\Fresa Topo - Espiral.jpg" alt="Fresa Espiral">
-                    <h3>Fresa de Topo - Espiral</h3>
-                    <p>Por: R$76,90</p>
-                    <p>À vista</p>
-                    <p>Frete para todo o Brasil - Acima de 50 Itens</p><BR>
-                    <button id="comprar" type="button">Comprar</button>
-                </div>
-                <div class="produto">
-                    <img src="\assets\Valvula com Manometro.jpg" alt="Valvula">
-                    <h3>Valvula metalica com Manometro</h3>
-                    <p>Por: R$385,90</p>
-                    <p>À vista ou em 10x de R$38,59 sem juros</p>
-                    <p>Frete para todo o Brasil</p><BR>
-                    <button id="comprar" type="button">Comprar</button>
-                </div>
-
+            
+            <div id="produtos-container" class="produtos">
 
             </div>
-
         </section>
-
-            
     </main>
+
     
+    <button id="voltarTopo" onclick="scrollToTop()">↑ Topo</button>
+
 
     <footer>
         <p>&copy GearBox Parts Ltda - Todos os direitos reservados - 2025.</p>
         <p>Siga-nos nas redes sociais:</p>
+        <div class="d-flex justify-content-center gap-3">
+            <a href="https://www.instagram.com/" target="_blank" class="text-light fs-4">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" class="text-light fs-4">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://linkedin.com/" target="_blank" class="text-light fs-4">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://x.com/" target="_blank" class="text-light fs-4">
+                <i class="bi bi-twitter"></i>
+            </a>           
+        </div>
     </footer>
 
     
