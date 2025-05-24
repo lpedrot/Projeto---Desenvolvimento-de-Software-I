@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #1f1c18;
+background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png")
+}
+
+header {
+    background-color: #201e1e;
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #201e1e;
+    padding: 0.5%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #c0392b;
+
+}
+
+.Contato {
+    background-color: #2c2c2c;
+    padding: 20px 30px;
+    border-radius: 8px;
+    max-width: 700px;
+    width: 100%;
+    color: #eee;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    margin: 0 auto;
+}
+
+
+.Contato h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.formulario label {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.formulario textarea {
+    resize: vertical;
+    min-height: 100px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #1f1c18;
+    color: #eee;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+
+.formulario button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e74c3c;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.formulario button:hover {
+    background-color: #c0392b;
+}
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+main {
+    flex-grow: 1;;
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 2%;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    nav ul {
+        align-items: center;
+    }
+
+
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    nav ul {
+        gap: 20px;
+    }
+
+    main {
+        padding: 30px;
+    }
+
+}
+
+
+
+
+#voltarTopo {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+footer {
+    width: 100%;
+    background-color: #2c2c2c;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 0;
+    position: relative; 
+    bottom: 0;
+    margin-top: auto;
+}
