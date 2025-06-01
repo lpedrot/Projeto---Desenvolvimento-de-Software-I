@@ -19,7 +19,7 @@ async function carregarProdutos() {
         <p>${parcelamento}</p>
         <p>${frete}</p>
         <br>
-        <button type="button">Comprar</button>
+        <button type="button" onclick="alert('Disponível em breve')">Comprar</button>
       `;
 
       container.appendChild(div);

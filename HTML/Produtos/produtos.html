@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <script src="/JS/notify.js"></script>
     <script src="/JS/Produtos/carregaProdutos.js"></script>
+    <script src="/JS/Produtos/filtraProdutos.js"></script>
 </head>
 <body>
     <header>
@@ -25,7 +26,7 @@
       
    <main>
         <section class="destaques">
-            
+            <input type="text" id="pesquisa" onkeyup="filtrarProdutos()" placeholder="Pesquisar produtos..." />
             <div id="produtos-container" class="produtos">
 
             </div>

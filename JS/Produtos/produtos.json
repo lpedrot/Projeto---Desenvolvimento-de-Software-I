@@ -46,5 +46,22 @@
     "preco": "R$385,90",
     "parcelamento": "À vista ou em 10x de R$38,59 sem juros",
     "frete": "Frete para todo o Brasil"
+  },
+
+      {
+    "imagem": "/assets/eletrodo.jpg",
+    "alt": "Eletrodo",
+    "nome": "Eletrodo para Solda E6013 2,5MM - 1kg",
+    "preco": "R$48,00",
+    "parcelamento": "À vista",
+    "frete": "Frete para todo o Brasil"
+  },
+    {
+    "imagem": "/assets/placa_fixacao.jpg",
+    "alt": "Placa Torno",
+    "nome": "Placa Para Torno Com Haste Cm5 - 3 Castanhas 100mm",
+    "preco": "R$1.561,65",
+    "parcelamento": "À vista",
+    "frete": "Frete para todo o Brasil"
   }
 ]

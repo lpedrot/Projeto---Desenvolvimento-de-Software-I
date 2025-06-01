@@ -53,6 +53,24 @@ main {
     flex-direction: column;
 }
 
+#pesquisa {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 12px;
+  margin: 20px auto;
+  display: block;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: inset 1px 1px 5px rgba(0,0,0,0.1);
+  transition: border-color 0.3s ease;
+}
+
+#pesquisa:focus {
+  outline: none;
+  border-color: #e74c3c;
+  box-shadow: 0 0 8px #e74c3c;
+}
 
 .produtos {
     display: grid;
@@ -86,6 +104,7 @@ main {
 .produto img {
     width: 90%;
     max-width: 250px;
+    aspect-ratio: 4 /3;
     height: auto;
     margin-bottom: 10px;
     transition: transform 0.3s ease-in-out;
